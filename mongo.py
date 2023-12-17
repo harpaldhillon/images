@@ -23,9 +23,3 @@ class Mongo:
             print("Connection is successful")
         except PyMongoError as e:
             print(f"Connection failed:{e}")
-            
-conn = Mongo()
-names = conn.list_databases()
-print(f"Databases present in the mongo db are: {names}")
-            
-

@@ -1,0 +1,11 @@
+[
+  {
+  "name": "nginx",
+  "registry": "docker.io"
+  },
+  {
+    "name": "apache2",
+    "registry": "aqua.io"
+  }
+]
+
